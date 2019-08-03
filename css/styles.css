@@ -1,8 +1,16 @@
-.container{
+body{
     background-image: url("http://www.mamarosa4pizza.com/images/pizza35.jpg");
     background-repeat: no-repeat;
     background-position: cover;
     background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  font-weight: bolder;
 }
 .topnav {
     overflow: hidden;
@@ -31,14 +39,75 @@
   .topnav-right {
     float: right;
   }
-  .heading{
-      background-color: rgba(6, 83, 12, 0.918);
+  h2{
+      /* background-color: rgba(32, 85, 35, 0.815); */
       text-align: center;
-      font-family: cursive;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 50px;
+      font-weight: bolder;
+      color: white;
   }
   h3{
-      font-family: "Malbeck", Helvetica, Arial, sans-serif;
-      font-size: 52px;
-    line-height: 52px;
-    font-weight: 400;
+    font-family: "Malbeck", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
   }
+  h4{
+    color: black;
+    font-weight: 200;
+  }
+  
+/* fghjk */
+/* .food-category.own-pizza {
+  background-image: url("https://www.blizzstatic.com/dynamicmedia/image/246/577fe0af1dca4.png");
+  background-position: center;
+  background-size: cover;
+}
+.food-category.full-dsk {
+  width: 93%;
+  margin: 2% 2% 40px 2%;
+  float: none;
+  display: inline-block;
+  background-size: cover;
+  background-position: 0 -20px;
+  min-height: 190px;
+  margin: 2%;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease;
+} */
+.food-category.meat-pizza{
+  background-image: url("https://iamafoodblog.com/wp-content/uploads/2015/10/meatlovers-pizza-8w.jpg"); 
+}
+.food-category {
+  position: relative;
+  text-align: center;
+  width: 28%;
+    float: none;
+    display: inline-block;
+    background-size: cover;
+    background-position: 0 -20px;
+    min-height: 190px;
+    margin: 2%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease;
+}
+.food-category.chicken-pizza{
+  background-image: url("https://www.landolakes.com/RecipeManagementSystem/media/Recipe-Media-Files/Recipes/Retail/x17/20665-white-chicken-pizza-600X600.jpg?ext=.jpg");
+}
+.food-category.vegan-pizza{
+  background-image: url("https://www.ginodacampo.com/wp-content/uploads/2014/11/quattro-stagione-recipe.jpg");
+  }
+  /* .menu{
+    background-color: rgba(20, 59, 22, 0.815);
+  } */
+  /* .container{
+    background-color: rgba(2, 51, 5, 0.815)
+  }
+  .select{
+    text-align: center;
+    color: black;
+  } */

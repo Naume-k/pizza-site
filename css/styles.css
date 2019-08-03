@@ -105,7 +105,7 @@ h1{
     background-color: rgba(20, 59, 22, 0.815);
   } */
   .container{
-    background-color: rgba(2, 51, 5, 0.815)
+    background-color: rgba(1, 34, 3, 0.815)
   }
   .select{
     text-align: center;
@@ -124,4 +124,7 @@ h1{
   }
   .buttons{
     text-align: center;
+  }
+  h5{
+    font-weight: bold;;
   }

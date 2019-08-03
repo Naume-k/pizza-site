@@ -60,7 +60,7 @@ h1{
   }
   
 /* fghjk */
-/* .food-category.own-pizza {
+.food-category.own-pizza {
   background-image: url("https://www.blizzstatic.com/dynamicmedia/image/246/577fe0af1dca4.png");
   background-position: center;
   background-size: cover;
@@ -77,7 +77,7 @@ h1{
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   transition: all 0.2s ease;
-} */
+}
 .food-category.meat-pizza{
   background-image: url("https://iamafoodblog.com/wp-content/uploads/2015/10/meatlovers-pizza-8w.jpg"); 
 }

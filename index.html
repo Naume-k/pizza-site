@@ -1,108 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- required meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- project title -->
-    <title>Pizzaria</title>
-    <!-- bootstrap and css links -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <!-- jquerry and js links -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
-    <script src="js/scripts.js"></script>
+    <head>
+        <!-- required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- project title -->
+        <title>Pizzaria</title>
+        <!-- bootstrap and css links -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <!-- jquerry and js links -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+        <script src="js/scripts.js"></script>
 
-</head>
-<body>
-    <div class="container"><br>
-        <h1>Pizza corner</h1><br>
-        <div class="topnav">
-            <a class="active" href="#home">Home</a>
-            <a href="index2.html">Blogs</a>
-            <a href="#a">Contact</a>
-            <a href="#a" class="logo">
-                <img src="https://previews.123rf.com/images/alexutemov/alexutemov1511/alexutemov151100337/48202457-pizza-flat-icon-logo-template-pizza-food-silhouette-pizza-piece-logo-pizza-slice-logo-pizza-menu-ill.jpg" class="main_logo" width="50px">
-            </a>
-            <div class="topnav-right">
-                <a href="#search">Search</a>
-                <a href="#c">About Us</a>
-            </div>
-        </div>
-        <br><br><br>
-        <div class="heading"><br>
-            <h2> ORDER ONLINE</h2><br>
-        </div>
-        <br>
-        <div class="menu">
-            <h3><em>Made fresh everyday</em></h3>
-            <div class="food-category meat-pizza">
-                <a class="pizza_category" data-pizza-category-id="3" data-toggle="tab" href="#select_pizza" id="one">
-                    <h4>Meat Pizzas</h4>
+    </head>
+    <body>
+        <div class="container"><br>
+            <h1>Pizza corner</h1><br>
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="index2.html">Blogs</a>
+                <a href="#a">Contact</a>
+                <a href="#a" class="logo">
+                    <img src="https://previews.123rf.com/images/alexutemov/alexutemov1511/alexutemov151100337/48202457-pizza-flat-icon-logo-template-pizza-food-silhouette-pizza-piece-logo-pizza-slice-logo-pizza-menu-ill.jpg" class="main_logo" width="50px">
                 </a>
+                <div class="topnav-right">
+                    <a href="#search">Search</a>
+                    <a href="#c">About Us</a>
+                </div>
             </div>
-            <div class="food-category chicken-pizza">
-                <a class="pizza_category" data-pizza-category-id="3" data-toggle="tab" href="#select_pizza" id="two">
-                    <h4>Chicken Pizzas</h4>
-                </a>
+            <br><br><br>
+            <div class="heading"><br>
+                <h2> ORDER ONLINE</h2><br>
             </div>
-            <div class="food-category vegan-pizza">
-                <a class="pizza_category" data-pizza-category-id="3" data-toggle="tab" href="#select_pizza" id="three">
-                    <h4>four seasons Pizza</h4>
-                </a>
+            <br>
+            <div class="menu">
+                <h3><em>Made fresh everyday</em></h3>
+                <div class="food-category meat-pizza">
+                    <a class="pizza_category" data-pizza-category-id="3" data-toggle="tab" href="#select_pizza" id="one">
+                        <h4>Meat Pizzas</h4>
+                    </a>
+                </div>
+                <div class="food-category chicken-pizza">
+                    <a class="pizza_category" data-pizza-category-id="3" data-toggle="tab" href="#select_pizza" id="two">
+                        <h4>Chicken Pizzas</h4>
+                    </a>
+                </div>
+                <div class="food-category vegan-pizza">
+                    <a class="pizza_category" data-pizza-category-id="3" data-toggle="tab" href="#select_pizza" id="three">
+                        <h4>four seasons Pizza</h4>
+                    </a>
+                </div>
             </div>
+            <div class="order">
+                <div class="food-category own-pizza full-dsk" >
+                    <a href="/orders?pizza_preset_id=82" class="show-menu"></a>
+                </div>
+                <div class="select">
+                    <h5>SELECT SIZE</h5>
+                    <select>
+                        <option value="volvo">Choose size</option>
+                        <option value="saab">Small</option>
+                        <option value="opel">Medium</option>
+                        <option value="audi">Large</option>
+                    </select><br><br>
+                    <h5>SELECT CRUST</h5>
+                    <select>
+                        <option value="volvo">Choose crust</option>
+                        <option value="saab">Crispy</option>
+                        <option value="opel">Stuffed</option>
+                        <option value="audi">Gluten-free</option>
+                    </select><br><br>
+                    <h5>SELECT TOPPINGS</h5>
+                    <select>
+                        <option value="volvo">Choose toppings</option>
+                        <option value="saab">Bacon</option>
+                        <option value="opel">Sausage</option>
+                        <option value="audi">Beef</option>
+                    </select>
+                        <br><br><br><br>
+                </div>   
+                <div class="summary">
+                    <table>
+                        <tr>
+                            <td>
+                                <th>ORDER SUMMARY</th>
+                            </td>
+                            <td>
+                                <th>TOTAL AMOUNT</th>
+                            </td>
+                        </tr>     
+                        <tr>
+                            <td id="items"></td>
+                            <td id="sum"></td>
+                        </tr>
+                    </table>
+                </div>
+                    <br><br>
+                <div class="buttons">
+                    <input type="button" value="Add more" onclick="msg()">
+                    <input type="button" value=" Order " onclick="msg()">
+                </div><br><br><br>
+            </div> 
         </div>
-        <div class="order">
-            <div class="food-category own-pizza full-dsk" >
-                <a href="/orders?pizza_preset_id=82" class="show-menu"></a>
-            </div>
-            <div class="select">
-                <h5>SELECT SIZE</h5>
-                <select>
-                    <option value="volvo">Choose size</option>
-                    <option value="saab">Small</option>
-                    <option value="opel">Medium</option>
-                    <option value="audi">Large</option>
-                </select><br><br>
-                <h5>SELECT CRUST</h5>
-                <select>
-                    <option value="volvo">Choose crust</option>
-                    <option value="saab">Crispy</option>
-                    <option value="opel">Stuffed</option>
-                    <option value="audi">Gluten-free</option>
-                </select><br><br>
-                <h5>SELECT TOPPINGS</h5>
-                <select>
-                    <option value="volvo">Choose toppings</option>
-                    <option value="saab">Bacon</option>
-                    <option value="opel">Sausage</option>
-                    <option value="audi">Beef</option>
-                </select>
-                    <br><br><br><br>
-            </div>   
-            <div class="summary">
-                <table>
-                    <tr>
-                        <td>
-                            <th>ORDER SUMMARY</th>
-                        </td>
-                        <td>
-                            <th>TOTAL AMOUNT</th>
-                        </td>
-                    </tr>     
-                    <tr>
-                        <td id="items"></td>
-                        <td id="sum"></td>
-                    </tr>
-                </table>
-            </div>
-                <br><br>
-            <div class="buttons">
-                <input type="button" value="Add more" onclick="msg()">
-                <input type="button" value=" Order " onclick="msg()">
-            </div><br><br><br>
-        </div> 
-    </div>
-</body>
+    </body>
 </html>

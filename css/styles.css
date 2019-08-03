@@ -111,3 +111,14 @@ h1{
     text-align: center;
     color: black;
   }
+  h6, #sum, #items{
+    color: #ddd;
+    text-align: center;
+  }
+  td{
+    padding-right: 250px;
+  }
+  table{
+    text-align: center;
+    color: #ddd;
+  }

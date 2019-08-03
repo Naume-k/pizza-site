@@ -16,7 +16,6 @@ h1{
     overflow: hidden;
     background-color:rgba(6, 83, 12, 0.918);
   }
-
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -40,12 +39,11 @@ h1{
     float: right;
   }
   h2{
-      /* background-color: rgba(32, 85, 35, 0.815); */
-      text-align: center;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: 50px;
-      font-weight: bolder;
-      color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
   }
   h3{
     font-family: "Malbeck", Helvetica, Arial, sans-serif;
@@ -58,8 +56,6 @@ h1{
     color: black;
     font-weight: 200;
   }
-  
-/* fghjk */
 .food-category.own-pizza {
   background-image: url("https://www.blizzstatic.com/dynamicmedia/image/246/577fe0af1dca4.png");
   background-position: center;
@@ -85,46 +81,43 @@ h1{
   position: relative;
   text-align: center;
   width: 28%;
-    float: none;
-    display: inline-block;
-    background-size: cover;
-    background-position: 0 -20px;
-    min-height: 190px;
-    margin: 2%;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    transition: all 0.2s ease;
+  float: none;
+  display: inline-block;
+  background-size: cover;
+  background-position: 0 -20px;
+  min-height: 190px;
+  margin: 2%;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease;
 }
 .food-category.chicken-pizza{
   background-image: url("https://www.landolakes.com/RecipeManagementSystem/media/Recipe-Media-Files/Recipes/Retail/x17/20665-white-chicken-pizza-600X600.jpg?ext=.jpg");
 }
 .food-category.vegan-pizza{
   background-image: url("https://www.ginodacampo.com/wp-content/uploads/2014/11/quattro-stagione-recipe.jpg");
-  }
-  /* .menu{
-    background-color: rgba(20, 59, 22, 0.815);
-  } */
-  .container{
-    background-color: rgba(1, 34, 3, 0.815)
-  }
-  .select{
-    text-align: center;
-    color: black;
-  }
-  h6, #sum, #items{
-    color: #ddd;
-    text-align: center;
-  }
-  td{
-    padding-right: 250px;
-  }
-  table{
-    text-align: center;
-    color: #ddd;
-  }
-  .buttons{
-    text-align: center;
-  }
-  h5{
-    font-weight: bold;;
-  }
+}
+.container{
+  background-color: rgba(1, 34, 3, 0.815)
+}
+.select{
+  text-align: center;
+  color: black;
+}
+h6, #sum, #items{
+  color: #ddd;
+  text-align: center;
+}
+td{
+  padding-right: 250px;
+}
+table{
+  text-align: center;
+  color: #ddd;
+}
+.buttons{
+  text-align: center;
+}
+h5{
+  font-weight: bold;;
+}

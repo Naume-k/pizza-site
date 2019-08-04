@@ -121,3 +121,7 @@ table{
 h5{
   font-weight: bold;;
 }
+.log{
+  text-align: center;
+  color: #ddd;
+}

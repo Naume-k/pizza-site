@@ -104,24 +104,17 @@ h1{
   text-align: center;
   color: black;
 }
-h6, #sum, #items{
+h6,{
   color: #ddd;
   text-align: center;
 }
-td{
-  padding-right: 250px;
-}
-table{
-  text-align: center;
-  color: #ddd;
-}
-.buttons{
-  text-align: center;
-}
+
+
 h5{
   font-weight: bold;;
 }
-.log{
-  text-align: center;
+
+.formz{
   color: #ddd;
+  /* text-align: center; */
 }
